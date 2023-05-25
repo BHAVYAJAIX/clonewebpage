@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 77px;
+    width: 100vw;
+    background-color: #131921;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    height: 77px;
+    display: flex;
+}
+ul{
+    height: 77px;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+    font-size: 19px;
+}
+.logo{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+#logolink{
+    text-decoration: none;
+}
+#logoimg{
+    height: 32px;
+    padding: 15px 25px 0px 25px;
+}
+li{
+    list-style: none;
+    color: azure;
+    padding: 30px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 35px;
+}
+.searchbar input{
+    height: 40px;
+    width: 600px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 10px;
+    font-size: 17px;
+}
+.searchbar input:active{
+    outline:none;
+}
+.searchbar button{
+    background-color: rgb(253, 169, 44);
+    border-color: rgb(253, 169, 44);
+    height: 42px;
+    width: 60px;
+    cursor: pointer;
+    border:1px solid;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* transition: width 0.5s ease-in-out, height 0.5s ease-in-out; */
+
+}
+.searchbar button:hover{
+    width:62px;
+    height:43px;
+    transition: width 0.01s linear, height 0.01s linear;
+}
+.searchbar button:active{
+    font-weight: bolder;
+    width: 65px;
+    height: 46px;
+}
+.container{
+    min-height: calc(100vh - 77px - 75px);
+}
+.mainslider{
+    height: 575px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.cards1{
+    width: 95vw;
+    height: 415px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    height: 410px;
+    width: 355px;
+    margin: 5px;
+    background-color: rgba(222, 222, 222, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card p{
+    color: black;
+    font-size: 23px;
+    font-family: 'Rubik', sans-serif;
+}
+.clickable p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    color: #2200CC;
+    text-decoration: none;
+    margin: 0px 0px 0px 25px;
+    position: sticky;
+}
+.clickable{
+    width: 314px;
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.clickable img{
+    margin: 25px auto 15px auto;
+}
+.sellimg img{
+    overflow:hidden;
+    transition: transform 0.3s;
+}
+.sellimg :hover img{
+    width: 280px;
+    height: 215px;
+    transform: scale(1.2);
+}
+.top{
+    width: 350px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center
+}
+.top p{
+    margin: 15px 0px 0px 0px;
+}
+.sport img{
+    margin: 10px 0px 0px 0px;
+}
+.sport p{
+    margin: 0px 0px 15px 0px;
+    color: rgb(49, 85, 79)
+}
+footer{
+    height: 75px;
+    width: 100vw;
+    background-color: #131A22;
+}
+footer p{
+    color: #f0f8ff85;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-centre{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
